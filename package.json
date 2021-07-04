@@ -1,0 +1,16 @@
+{
+  "name": "finup-api",
+  "version": "1.0.0",
+  "description": "finUP plataform's API",
+  "license": "MIT",
+  "author": "Carlos Eduardo Carrinho <carrinhoedu@gmail.com> (https://carloscarrinho.com/)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/carloscarrinho/finup-api.git"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "@types/node": "^16.0.0",
+    "typescript": "^4.3.5"
+  }
+}
