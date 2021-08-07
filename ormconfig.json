@@ -1,0 +1,48 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "1234",
+    "database": "finup",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+      "src/entities/**/*.ts"
+    ],
+    "migrations": [
+      "src/database/migrations/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "./src/database/migrations"
+    },
+    "subscribers": [
+      "src/subscriber/**/*.ts"
+    ]
+  },
+  {
+    "name": "test-db",
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "postgres",
+    "password": "1234",
+    "database": "finup_test",
+    "synchronize": true,
+    "logging": false,
+    "entities": [
+      "src/entities/**/*.ts"
+    ],
+    "migrations": [
+      "src/database/migrations/*.ts"
+    ],
+    "cli": {
+      "migrationsDir": "./src/database/migrations"
+    },
+    "subscribers": [
+      "src/subscriber/**/*.ts"
+    ]
+  }
+]
